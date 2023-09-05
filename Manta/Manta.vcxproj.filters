@@ -41,5 +41,8 @@
     <ClInclude Include="Ray.hpp">
       <Filter>Quelldateien</Filter>
     </ClInclude>
+    <ClInclude Include="Light.hpp">
+      <Filter>Quelldateien</Filter>
+    </ClInclude>
   </ItemGroup>
 </Project>

@@ -23,29 +23,29 @@ int main() {
 	cameraData.dimensions = sf::Vector2u(1280, 720);
 	cameraData.position = sf::Vector3f(-50, 0, 0);
 
-	auto renderHandler = Manta::DirectRenderHandler(&cameraData, &_window);
+	auto renderHandler = Manta::DirectMultipassRenderHandler(&cameraData, &_window);
 
-	auto camera = Manta::ThreadedCamera(&cameraData, &renderHandler, 8);
+	auto camera = Manta::PBRCamera(&cameraData, &renderHandler, 16);
 
 	// GENERATE TEST SCENE
 	const unsigned int NUM_ENTITIES = 20;
 	
 	for (unsigned int i = 0; i < NUM_ENTITIES; i++) {
 		
-		Manta::Shape* sphere = (std::rand() % 2) == 0 ? Manta::Sphere() : Manta::Box();
+		auto sphere = (std::rand() % 2) == 0 || true ? Manta::Sphere() : Manta::Box();
 
 		sphere->color = sf::Color(std::rand() % 255, std::rand() % 255, std::rand() % 255);
 
-		Manta::Translate* transform = new Manta::Translate(sf::Vector3f(
+		auto transform = new Manta::Translate(sf::Vector3f(
 			std::rand() % 10 - 5,
-			std::rand() % 10 - 5,
+			std::rand() % 20 - 10,
 			std::rand() % 20 - 10
 		));
 
 		sphere->pushTransform(transform);
 
 		scene.mountShape(sphere);
-	}
+	}	
 
 
 	camera.render();

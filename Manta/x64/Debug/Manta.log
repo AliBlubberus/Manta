@@ -29,6 +29,13 @@ C:\Users\adrii\source\repos\Manta\Manta\Main.cpp(6,10): warning C4067: Unerwarte
 C:\Users\adrii\source\repos\Manta\Manta\Main.cpp(7,10): warning C4067: Unerwartete Token nach Präprozessordirektive - Zeilenvorschub erwartet.
 C:\Users\adrii\source\repos\Manta\Manta\Scene.hpp(3,10): warning C4067: Unerwartete Token nach Präprozessordirektive - Zeilenvorschub erwartet.
 C:\Users\adrii\source\repos\Manta\Manta\Scene.hpp(5,10): warning C4067: Unerwartete Token nach Präprozessordirektive - Zeilenvorschub erwartet.
+C:\Users\adrii\source\repos\Manta\Manta\Scene.hpp(6,10): warning C4067: Unerwartete Token nach Präprozessordirektive - Zeilenvorschub erwartet.
+C:\Users\adrii\source\repos\Manta\Manta\Light.hpp(3,10): warning C4067: Unerwartete Token nach Präprozessordirektive - Zeilenvorschub erwartet.
+C:\Users\adrii\source\repos\Manta\Manta\Light.hpp(33,1): warning C4305: "Argument": Verkürzung von "double" in "T"
+          with
+          [
+              T=float
+          ]
 C:\Users\adrii\source\repos\Manta\Manta\Main.cpp(8,10): warning C4067: Unerwartete Token nach Präprozessordirektive - Zeilenvorschub erwartet.
 C:\Users\adrii\source\repos\Manta\Manta\Camera.hpp(3,10): warning C4067: Unerwartete Token nach Präprozessordirektive - Zeilenvorschub erwartet.
 C:\Users\adrii\source\repos\Manta\Manta\Camera.hpp(5,10): warning C4067: Unerwartete Token nach Präprozessordirektive - Zeilenvorschub erwartet.
@@ -36,7 +43,10 @@ C:\Users\adrii\source\repos\Manta\Manta\Camera.hpp(6,10): warning C4067: Unerwar
 C:\Users\adrii\source\repos\Manta\Manta\Camera.hpp(7,10): warning C4067: Unerwartete Token nach Präprozessordirektive - Zeilenvorschub erwartet.
 C:\Users\adrii\source\repos\Manta\Manta\Camera.hpp(8,10): warning C4067: Unerwartete Token nach Präprozessordirektive - Zeilenvorschub erwartet.
 C:\Users\adrii\source\repos\Manta\Manta\Ray.hpp(5,10): warning C4067: Unerwartete Token nach Präprozessordirektive - Zeilenvorschub erwartet.
-C:\Users\adrii\source\repos\Manta\Manta\Camera.hpp(104,35): warning C4244: "Argument": Konvertierung von "T" in "T", möglicher Datenverlust
+C:\Users\adrii\source\repos\Manta\Manta\Camera.hpp(148,6): warning C4244: "=": Konvertierung von "float" in "sf::Uint8", möglicher Datenverlust
+C:\Users\adrii\source\repos\Manta\Manta\Camera.hpp(152,6): warning C4244: "=": Konvertierung von "float" in "sf::Uint8", möglicher Datenverlust
+C:\Users\adrii\source\repos\Manta\Manta\Camera.hpp(156,6): warning C4244: "=": Konvertierung von "float" in "sf::Uint8", möglicher Datenverlust
+C:\Users\adrii\source\repos\Manta\Manta\Camera.hpp(215,35): warning C4244: "Argument": Konvertierung von "T" in "T", möglicher Datenverlust
           with
           [
               T=int
@@ -45,7 +55,7 @@ C:\Users\adrii\source\repos\Manta\Manta\Camera.hpp(104,35): warning C4244: "Argu
           [
               T=float
           ]
-C:\Users\adrii\source\repos\Manta\Manta\Camera.hpp(104,27): warning C4244: "Argument": Konvertierung von "T" in "T", möglicher Datenverlust
+C:\Users\adrii\source\repos\Manta\Manta\Camera.hpp(215,27): warning C4244: "Argument": Konvertierung von "T" in "T", möglicher Datenverlust
           with
           [
               T=int
@@ -54,35 +64,20 @@ C:\Users\adrii\source\repos\Manta\Manta\Camera.hpp(104,27): warning C4244: "Argu
           [
               T=float
           ]
-C:\Users\adrii\source\repos\Manta\Manta\Camera.hpp(229,35): warning C4244: "Argument": Konvertierung von "T" in "T", möglicher Datenverlust
-          with
-          [
-              T=int
-          ]
-          and
-          [
-              T=float
-          ]
-C:\Users\adrii\source\repos\Manta\Manta\Camera.hpp(229,27): warning C4244: "Argument": Konvertierung von "T" in "T", möglicher Datenverlust
-          with
-          [
-              T=int
-          ]
-          and
-          [
-              T=float
-          ]
-C:\Users\adrii\source\repos\Manta\Manta\Main.cpp(44,21): warning C4244: "Argument": Konvertierung von "int" in "T", möglicher Datenverlust
-          with
-          [
-              T=float
-          ]
-C:\Users\adrii\source\repos\Manta\Manta\Main.cpp(43,21): warning C4244: "Argument": Konvertierung von "int" in "T", möglicher Datenverlust
-          with
-          [
-              T=float
-          ]
+C:\Users\adrii\source\repos\Manta\Manta\Camera.hpp(458,46): warning C4244: "+=": Konvertierung von "float" in "sf::Uint16", möglicher Datenverlust
+C:\Users\adrii\source\repos\Manta\Manta\Camera.hpp(459,46): warning C4244: "+=": Konvertierung von "float" in "sf::Uint16", möglicher Datenverlust
+C:\Users\adrii\source\repos\Manta\Manta\Camera.hpp(460,46): warning C4244: "+=": Konvertierung von "float" in "sf::Uint16", möglicher Datenverlust
 C:\Users\adrii\source\repos\Manta\Manta\Main.cpp(42,21): warning C4244: "Argument": Konvertierung von "int" in "T", möglicher Datenverlust
+          with
+          [
+              T=float
+          ]
+C:\Users\adrii\source\repos\Manta\Manta\Main.cpp(41,21): warning C4244: "Argument": Konvertierung von "int" in "T", möglicher Datenverlust
+          with
+          [
+              T=float
+          ]
+C:\Users\adrii\source\repos\Manta\Manta\Main.cpp(40,21): warning C4244: "Argument": Konvertierung von "int" in "T", möglicher Datenverlust
           with
           [
               T=float

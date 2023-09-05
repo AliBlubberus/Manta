@@ -36,4 +36,17 @@ namespace Manta {
 		};
 	};
 
+	class Scale : public Transform {
+	public:
+		sf::Vector3f factor = sf::Vector3f(1, 1, 1);
+
+		sf::Vector3f process(const sf::Vector3f point) override {
+			return sf::Vector3f(
+				point.x / this->factor.x,
+				point.y / this->factor.y,
+				point.z / this->factor.z
+			);
+		}
+	};
+
 };

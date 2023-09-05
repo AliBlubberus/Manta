@@ -149,6 +149,7 @@
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="Camera.hpp" />
+    <ClInclude Include="Light.hpp" />
     <ClInclude Include="Ray.hpp" />
     <ClInclude Include="Rotation.hpp" />
     <ClInclude Include="Scene.hpp" />
